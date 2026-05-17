@@ -33,6 +33,7 @@ export default defineConfig({
             { text: '开发环境配置', link: '/guide/dev-setup' },
             { text: 'Git & GitHub', link: '/guide/git' },
             { text: '推荐书单', link: '/guide/books' },
+            { text: '提问的艺术', link: '/guide/how-to-ask' },
           ]
         }
       ]
