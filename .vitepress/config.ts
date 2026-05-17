@@ -60,12 +60,11 @@ export default defineConfig({
             { text: '正确地浪费剩下的时间', link: '/survival/li-zhi/waste-time' },
             { text: '总有更值得做的事情', link: '/survival/li-zhi/better-things' },
             { text: '认识信息素养', link: '/survival/li-zhi/info-literacy' },
-            { text: '做研究的兴趣', link: '/survival/li-zhi/research-interest' },
             { text: '关于工作', link: '/survival/li-zhi/about-work' },
           ]
         },
         {
-          text: '访谈集',
+          text: '访谈篇',
           items: [
             { text: '为了留学而出国', link: '/survival/interviews/study-abroad' },
             { text: '做真正的研究', link: '/survival/interviews/real-research' },
@@ -77,13 +76,21 @@ export default defineConfig({
           ]
         },
         {
-          text: '生存技巧',
+          text: '求实篇',
           items: [
             { text: '转专业指南', link: '/survival/tips/transfer-major' },
             { text: '选课原则与选课技巧', link: '/survival/tips/course-selection' },
             { text: '突击备考', link: '/survival/tips/exam-cram' },
             { text: '正确解读成绩算法', link: '/survival/tips/gpa' },
             { text: '旁门左道', link: '/survival/tips/tricks' },
+          ]
+        },
+        {
+          text: '创新篇',
+          items: [
+            { text: '做研究的兴趣', link: '/survival/chuangxin/research-interest' },
+            { text: '竞赛指南', link: '/survival/chuangxin/competition' },
+            { text: '创新创业', link: '/survival/chuangxin/entrepreneurship' },
           ]
         },
         {
