@@ -1,5 +1,31 @@
 import { defineConfig } from 'vitepress'
 
+const CJK_RE = /[一-鿿㐀-䶿]/
+
+function tokenize(text: string, _fieldName: string): string[] {
+  const tokens: string[] = []
+  // Split by non-CJK segments
+  const segments = text.split(new RegExp(`(${CJK_RE.source}+)`))
+  for (const seg of segments) {
+    if (!seg) continue
+    if (CJK_RE.test(seg)) {
+      // Bigram: overlapping 2-char windows for phrase matching
+      for (let i = 0; i < seg.length - 1; i++) {
+        tokens.push(seg.substring(i, i + 2))
+      }
+      // Also index single chars for short queries
+      for (const ch of seg) {
+        tokens.push(ch)
+      }
+    } else {
+      // Latin words: split on whitespace and punctuation
+      const words = seg.match(/[a-zA-Z0-9]+/g)
+      if (words) tokens.push(...words.map(w => w.toLowerCase()))
+    }
+  }
+  return tokens
+}
+
 export default defineConfig({
   title: 'OpenTYUT',
   description: '开放式太原理工大学计算机学习资源站',
@@ -123,7 +149,14 @@ export default defineConfig({
     ],
 
     search: {
-      provider: 'local'
+      provider: 'local',
+      options: {
+        miniSearch: {
+          options: {
+            tokenize
+          }
+        }
+      }
     },
 
     footer: {
