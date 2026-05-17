@@ -91,6 +91,8 @@ export default defineConfig({
             { text: '做研究的兴趣', link: '/survival/chuangxin/research-interest' },
             { text: '竞赛指南', link: '/survival/chuangxin/competition' },
             { text: '创新创业', link: '/survival/chuangxin/entrepreneurship' },
+            { text: '校外实习创新版', link: '/survival/chuangxin/校外实习创新版' },
+            { text: '课程点名创新篇', link: '/survival/chuangxin/课程点名创新篇' },
           ]
         },
         {
