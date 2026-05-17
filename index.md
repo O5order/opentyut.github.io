@@ -3,7 +3,7 @@ layout: home
 
 hero:
   name: "OpenTYUT"
-  text: "开放式学习资源站"
+  text: "太原理工大学开源社区"
   tagline: 面向全校学生 · 免费开源 · 社区共建
   actions:
     - theme: brand
@@ -13,7 +13,7 @@ hero:
       text: GitHub
       link: https://github.com/opentyut/opentyut
   image:
-    src: /logo.svg
+    src: /tyut-open-source-community.png
     alt: OpenTYUT
 
 features:
