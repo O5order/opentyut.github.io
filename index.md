@@ -2,7 +2,7 @@
 layout: home
 
 hero:
-  name: "openTyut"
+  name: "OpenTYUT"
   text: "开放式学习资源站"
   tagline: 面向大一新生 · 由毕业生维护 · 开源共建
   actions:
@@ -14,7 +14,7 @@ hero:
       link: https://github.com/opentyut/opentyut
   image:
     src: /logo.svg
-    alt: openTyut
+    alt: OpenTYUT
 
 features:
   - icon: 📖

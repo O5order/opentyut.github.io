@@ -1,7 +1,7 @@
 import { defineConfig } from 'vitepress'
 
 export default defineConfig({
-  title: 'openTyut',
+  title: 'OpenTYUT',
   description: '开放式太原理工大学计算机学习资源站',
   lang: 'zh-CN',
   base: '/',
@@ -48,7 +48,7 @@ export default defineConfig({
 
     footer: {
       message: 'Made with ❤️ by TYUT alumni',
-      copyright: 'Copyright © 2026 openTyut'
+      copyright: 'Copyright © 2026 OpenTYUT'
     },
 
     outline: {
