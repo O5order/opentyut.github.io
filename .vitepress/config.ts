@@ -14,6 +14,7 @@ export default defineConfig({
       { text: '首页', link: '/' },
       { text: '学习指南', link: '/guide/' },
       { text: '太理生存手册', link: '/survival/' },
+      { text: '升学', link: '/admission' },
       { text: '外部资源', link: '/resources' },
     ],
 
@@ -94,8 +95,17 @@ export default defineConfig({
             { text: '本科毕业之后', link: '/survival/appendix/after-graduation' },
           ]
         }
-      ]
-    },
+      ],
+      '/admission': [
+        {
+          text: '升学指南',
+          items: [
+            { text: '保研', link: '/admission/exemption_of_examinations' },
+            { text: '考研', link: '/admission/postgraduate_qualifying_examination' },
+            { text: '留学', link: '/admission/study-abroad' },
+          ]
+        }
+      ],
 
     socialLinks: [
       { icon: 'github', link: 'https://github.com/opentyut/opentyut' }
