@@ -1,0 +1,36 @@
+name: ❓ 提问交流
+description: 学习相关的问题、求助、讨论
+title: "[提问] "
+labels: [question]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        > ⚠️ 提问前请先阅读 [提问的艺术](https://opentyut.github.io/guide/how-to-ask)，好的问题更容易得到好的回答。
+
+  - type: textarea
+    id: question
+    attributes:
+      label: 你的问题
+      description: |
+        请尽量包含以下信息：
+        - 你在做什么（目标）
+        - 你尝试了什么（过程）
+        - 你遇到了什么（错误信息、截图）
+        - 你的环境（操作系统、软件版本等）
+    validations:
+      required: true
+
+  - type: textarea
+    id: context
+    attributes:
+      label: 补充背景
+      description: 问题相关的其他上下文，比如你是在学哪门课、看哪个教程时遇到的
+
+  - type: checkboxes
+    id: checklist
+    attributes:
+      label: 提问前确认
+      options:
+        - label: 我已经搜索过已有 Issues，确认没有重复
+        - label: 我已经阅读过 [提问的艺术](https://opentyut.github.io/guide/how-to-ask)

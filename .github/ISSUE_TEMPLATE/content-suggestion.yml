@@ -1,0 +1,43 @@
+name: 📝 内容建议
+description: 推荐新资源、补充课程笔记、修正错误信息
+title: "[内容] "
+labels: [content]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        > 🎓 感谢你为 openTyut 贡献内容！
+
+  - type: dropdown
+    id: type
+    attributes:
+      label: 建议类型
+      options:
+        - 补充课程笔记
+        - 推荐学习资源（课程、书籍、工具）
+        - 修正错误或过时信息
+        - 新增页面或章节
+        - 其他
+    validations:
+      required: true
+
+  - type: input
+    id: page
+    attributes:
+      label: 相关页面
+      description: 这个建议关联到网站哪个页面？例如 `/guide/semester-1`
+      placeholder: /guide/semester-1
+
+  - type: textarea
+    id: detail
+    attributes:
+      label: 具体内容
+      description: 请详细描述你的建议。如果是指出错误，请说明错误内容和正确信息。
+    validations:
+      required: true
+
+  - type: textarea
+    id: source
+    attributes:
+      label: 参考来源
+      description: 如果有参考链接、教材引用、个人经验等，请在此说明

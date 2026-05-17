@@ -1,0 +1,35 @@
+name: 🐛 网站问题
+description: 链接失效、显示错误、排版异常等问题报告
+title: "[问题] "
+labels: [bug]
+body:
+  - type: textarea
+    id: describe
+    attributes:
+      label: 问题描述
+      description: 遇到了什么问题？期望的表现是什么？
+    validations:
+      required: true
+
+  - type: input
+    id: url
+    attributes:
+      label: 问题页面链接
+      placeholder: https://opentyut.github.io/guide/xxx
+
+  - type: textarea
+    id: screenshot
+    attributes:
+      label: 截图
+      description: 如果方便，贴一张截图帮助定位（拖入图片即可）
+
+  - type: dropdown
+    id: browser
+    attributes:
+      label: 浏览器
+      options:
+        - Chrome / Edge
+        - Firefox
+        - Safari
+        - 手机浏览器
+        - 其他
