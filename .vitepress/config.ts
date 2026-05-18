@@ -1,6 +1,6 @@
 import { defineConfig } from 'vitepress'
 
-function tokenize(text: string, _fieldName: string): string[] {
+function tokenize(text: string, _fieldName?: string): string[] {
   const tokens: string[] = []
   const CJK = /[一-鿿㐀-䶿]/
   const segments = text.split(new RegExp(`(${CJK.source}+)`))
@@ -74,7 +74,15 @@ export default defineConfig({
           items: [
             { text: '欢迎来到太原理工大学', link: '/survival/li-zhi/welcome' },
             { text: '你想要做什么', link: '/survival/li-zhi/what-to-do' },
-            { text: '失败的思维方式', link: '/survival/li-zhi/failed-mindset' },
+            {
+              text: '失败的思维方式',
+              collapsed: true,
+              items: [
+                { text: '概览', link: '/survival/li-zhi/failed-mindset' },
+                { text: '被动思维', link: '/survival/li-zhi/passive-mindset' },
+                { text: '高考唯一论', link: '/survival/li-zhi/gaokao-only' },
+              ]
+            },
             { text: '反对 PUA', link: '/survival/li-zhi/anti-pua' },
             { text: '悲壮的学习方式', link: '/survival/li-zhi/tragic-learning' },
             { text: '你的身价是多少', link: '/survival/li-zhi/your-value' },
