@@ -22,13 +22,14 @@
 
 ## 📖 网站
 
-👉 [opentyut.github.io/opentyut](https://opentyut.github.io/opentyut/)
+🌍 [海外访问：opentyut.github.io](https://opentyut.github.io/)  
+🇨🇳 [大陆访问：opentyut.geekyuu.com](https://opentyut.geekyuu.com/)
 
 ## 💬 反馈与提问
 
 如果你有任何问题、建议或发现了网站内容的错误，欢迎在 [Issues](https://github.com/opentyut/opentyut/issues) 中留言。
 
-提问前，建议先阅读 [提问的艺术](https://opentyut.github.io/opentyut/guide/how-to-ask)，让你的问题更容易被理解和解决。
+提问前，建议先阅读 [提问的艺术](https://opentyut.github.io/guide/how-to-ask)，让你的问题更容易被理解和解决。
 
 ## 🤝 参与贡献
 
