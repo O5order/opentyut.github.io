@@ -22,8 +22,9 @@
 
 ## 📖 网站
 
-🌍 [海外访问：opentyut.github.io](https://opentyut.github.io/)  
 🇨🇳 [大陆访问：opentyut.geekyuu.com](https://opentyut.geekyuu.com/)
+🌍 [其他地区访问：opentyut.github.io](https://opentyut.github.io/)  
+
 
 ## 💬 反馈与提问
 
