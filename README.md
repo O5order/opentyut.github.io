@@ -1,6 +1,6 @@
 # OpenTYUT
 
-> 🎓 开放式太原理工大学计算机学习资源站
+> 🎓 太原理工大学开源社区 ｜ 开放式计算机学习资源站
 
 [![Deploy to GitHub Pages](https://github.com/opentyut/opentyut/actions/workflows/deploy.yml/badge.svg)](https://github.com/opentyut/opentyut/actions/workflows/deploy.yml)
 

@@ -1,7 +1,7 @@
 ---
 layout: home
 title: OpenTYUT | 太原理工大学计算机学习资源站
-description: 面向太原理工大学计算机及相关专业学生的开源学习资源站，提供学习路线、课程笔记、外部资源聚合。由在校生和已毕业学长共同维护。
+description: 太原理工大学计算机学习资源站，由在校生与毕业学长共同维护。提供大一至大四学习路线、课程笔记、保研考研留学经验、实习就业指南、外部资源聚合，帮TYUTer少走弯路。
 head:
   - - script
     - type: application/ld+json
@@ -11,7 +11,7 @@ head:
         "@type": "WebSite",
         "name": "OpenTYUT",
         "url": "https://opentyut.github.io/",
-        "description": "太原理工大学计算机学习资源站"
+        "description": "太原理工大学计算机学习资源站，由在校生与毕业学长共同维护。提供大一至大四学习路线、课程笔记、保研考研留学经验、实习就业指南、外部资源聚合，帮TYUTer少走弯路。"
       }
 
 hero:
