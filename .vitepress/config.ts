@@ -23,7 +23,7 @@ function tokenize(text: string, _fieldName?: string): string[] {
 
 export default defineConfig({
   title: 'OpenTYUT',
-  description: '太原理工大学计算机学习资源站，由在校生与毕业学长共同维护。提供大一至大四学习路线、课程笔记、保研考研留学经验、实习就业指南、外部资源聚合，帮TYUTer少走弯路。',
+  description: '太原理工大学计算机学习资源站，由在校生与毕业学长共同维护。提供全栈开发、后端开发、人工智能等方向学习路线、课程笔记、升学经验、实习就业指南和外部资源聚合，帮TYUTer少走弯路。',
   lang: 'zh-CN',
   base: '/',
   ignoreDeadLinks: true,
@@ -87,22 +87,38 @@ export default defineConfig({
     sidebar: {
       '/guide/': [
         {
-          text: '学习指南',
+          text: '全栈开发',
           items: [
-            { text: '概览', link: '/guide/' },
-            { text: '大一上学期', link: '/guide/semester-1' },
-            { text: '大一下学期', link: '/guide/semester-2' },
-            { text: '大二上学期', link: '/guide/semester-3' },
-            { text: '大二下学期', link: '/guide/semester-4' },
+            { text: '施工中', link: '/guide/full-stack' },
+          ]
+        },
+        {
+          text: '后端开发',
+          items: [
+            { text: '施工中', link: '/guide/backend' },
+          ]
+        },
+        {
+          text: '人工智能',
+          items: [
+            { text: '施工中', link: '/guide/ai' },
+          ]
+        }
+      ],
+      '/resources': [
+        {
+          text: '外部资源',
+          items: [
+            { text: '资源聚合', link: '/resources' },
           ]
         },
         {
           text: '常用工具',
           items: [
-            { text: '开发环境配置', link: '/guide/dev-setup' },
-            { text: 'Git & GitHub', link: '/guide/git' },
-            { text: '推荐书单', link: '/guide/books' },
-            { text: '提问的艺术', link: '/guide/how-to-ask' },
+            { text: '开发环境配置', link: '/resources/dev-setup' },
+            { text: 'Git & GitHub', link: '/resources/git' },
+            { text: '推荐书单', link: '/resources/books' },
+            { text: '提问的艺术', link: '/resources/how-to-ask' },
           ]
         }
       ],
@@ -181,12 +197,23 @@ export default defineConfig({
       ],
       '/admission': [
         {
-          text: '升学指南',
+          text: '保研',
           items: [
-            { text: '概览', link: '/admission/' },
-            { text: '保研', link: '/admission/exemption_of_examinations' },
-            { text: '考研', link: '/admission/postgraduate_qualifying_examination' },
-            { text: '留学', link: '/admission/study-abroad' },
+            { text: '普通保研', link: '/admission/bao-yan/normal' },
+            { text: '支教团保研', link: '/admission/bao-yan/teaching-support' },
+            { text: '国防科工计划', link: '/admission/bao-yan/defense-science' },
+          ]
+        },
+        {
+          text: '考研',
+          items: [
+            { text: '施工中', link: '' },
+          ]
+        },
+        {
+          text: '留学',
+          items: [
+            { text: '施工中', link: '' },
           ]
         }
       ]

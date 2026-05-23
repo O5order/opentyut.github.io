@@ -30,13 +30,13 @@
 
 如果你有任何问题、建议或发现了网站内容的错误，欢迎在 [Issues](https://github.com/opentyut/opentyut/issues) 中留言。
 
-提问前，建议先阅读 [提问的艺术](https://opentyut.github.io/guide/how-to-ask)，让你的问题更容易被理解和解决。
+提问前，建议先阅读 [提问的艺术](https://opentyut.github.io/resources/how-to-ask)，让你的问题更容易被理解和解决。
 
 ## 🤝 参与贡献
 
 OpenTYUT 完全开源，欢迎任何形式的贡献：
 
-- **补充内容**：每个学期页面的笔记、心得、推荐资源
+- **补充内容**：各方向页面的笔记、心得、推荐资源
 - **修正错误**：发现过时或错误的信息，直接提 PR
 - **分享资源**：好的网课、工具、博客、项目
 - **改进网站**：UI、功能、文档结构优化
