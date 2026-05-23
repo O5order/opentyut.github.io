@@ -22,7 +22,7 @@
 
 ## 📖 网站
 
-🇨🇳 [大陆访问：opentyut.geekyuu.com](https://opentyut.geekyuu.com/)
+🇨🇳 [大陆访问：opentyut.geekyuu.com](https://opentyut.geekyuu.com/)  
 🌍 [其他地区访问：opentyut.github.io](https://opentyut.github.io/)  
 
 
