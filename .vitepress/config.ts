@@ -118,6 +118,7 @@ export default defineConfig({
             { text: '开发环境配置', link: '/resources/dev-setup' },
             { text: 'Git & GitHub', link: '/resources/git' },
             { text: '推荐书单', link: '/resources/books' },
+            { text: '推荐视频课程', link: '/resources/video' },
             { text: '提问的艺术', link: '/resources/how-to-ask' },
           ]
         }
@@ -181,6 +182,7 @@ export default defineConfig({
             { text: '做研究的兴趣', link: '/survival/chuangxin/research-interest' },
             { text: '竞赛指南', link: '/survival/chuangxin/competition' },
             { text: '创新创业', link: '/survival/chuangxin/entrepreneurship' },
+            { text: '参与业内活动', link: '/survival/chuangxin/参与业内活动' },
             { text: '校外实习创新版', link: '/survival/chuangxin/校外实习创新版' },
             { text: '课程点名创新篇', link: '/survival/chuangxin/课程点名创新篇' },
           ]
@@ -199,6 +201,7 @@ export default defineConfig({
         {
           text: '保研',
           items: [
+            { text: '保研概览', link: '/admission/exemption_of_examinations' },
             { text: '普通保研', link: '/admission/bao-yan/normal' },
             { text: '支教团保研', link: '/admission/bao-yan/teaching-support' },
             { text: '国防科工计划', link: '/admission/bao-yan/defense-science' },
@@ -207,13 +210,14 @@ export default defineConfig({
         {
           text: '考研',
           items: [
+            { text: '考研概览', link: '/admission/postgraduate_qualifying_examination' },
             { text: '考研规划', link: '/admission/kao-yan/planning' },
           ]
         },
         {
           text: '留学',
           items: [
-            { text: '施工中', link: '' },
+            { text: '施工中', link: '/admission/study-abroad' },
           ]
         }
       ]
