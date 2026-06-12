@@ -42,6 +42,7 @@
 - [freeCodeCamp](https://github.com/freeCodeCamp/freeCodeCamp) — 免费学编程
 - [build-your-own-x](https://github.com/codecrafters-io/build-your-own-x) — 从零造轮子合集
 - [public-apis](https://github.com/public-apis/public-apis) — 免费 API 列表
+- [the missing semester of your cs education](https://missing-semester-cn.github.io/) — 开发者工具必修课（讲座视频B站有）
 
 ::: tip GitHub Student Pack
 用学校邮箱注册 GitHub 可以免费领 GitHub Pro、JetBrains 全家桶、域名、云服务额度等几十种福利。**大一就要领！**
