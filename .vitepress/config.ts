@@ -184,6 +184,7 @@ export default defineConfig({
             { text: '选课原则与选课技巧', link: '/survival/tips/course-selection' },
             { text: '突击备考', link: '/survival/tips/exam-cram' },
             { text: '正确解读成绩算法', link: '/survival/tips/gpa' },
+            { text: '志愿时长、pu学分与综测', link: '/survival/tips/student-record' },
             { text: '旁门左道', link: '/survival/tips/tricks' },
           ]
         },
